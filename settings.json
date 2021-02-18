@@ -1,0 +1,54 @@
+{
+    "editor.formatOnSave": true,
+    "todo-tree.regex.regex": "(//|#|<!--|;|/?\\*|^)\\s*($TAGS)",
+    "todo-tree.general.tags": [
+        "@todo",
+        "@done",
+        "@fixme",
+        "@needtest",
+        "@editing"
+    ],
+    "todo-tree.filtering.excludeGlobs": [
+        "**/vendor/**",
+        "**/node_modules/**",
+        "**/dist/**",
+        "**/bower_components/**",
+        "**/build/**",
+        "**/.vscode/**",
+        "**/.github/**",
+        "**/_output/**",
+        "**/*.min.*",
+        "**/*.map"
+    ],
+    "todo-tree.highlights.customHighlight": {
+        "@todo": {
+            "foreground": "#de9c2b",
+            "rulerColour": "#de9c2b",
+            "iconColour": "#de9c2b"
+        },
+        "@done": {
+            "foreground": "green",
+            "icon": "issue-closed",
+            "rulerColour": "green",
+            "iconColour": "green"
+        },
+        "@needtest": {
+            "foreground": "#7e4c7e",
+            "icon": "question",
+            "rulerColour": "#7e4c7e",
+            "iconColour": "#7e4c7e"
+        },
+        "@fixme": {
+            "foreground": "red",
+            "icon": "beaker",
+            "rulerColour": "red",
+            "iconColour": "red"
+        },
+        "@editing": {
+            "foreground": "#6AC3B1",
+            "icon": "clock",
+            "rulerColour": "#6AC3B1",
+            "iconColour": "#6AC3B1"
+        }
+    }
+}
